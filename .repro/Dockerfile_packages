@@ -1,5 +1,6 @@
 RUN install2.r --error --skipinstalled \ 
   here \ 
+  lavaan \ 
   lubridate \ 
   tidyverse
 RUN installGithub.r \ 
